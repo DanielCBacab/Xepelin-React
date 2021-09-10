@@ -1,0 +1,47 @@
+/* TESTIMONIAL */
+
+.testimonial-bg{
+    background: #FAFAFA;
+}
+
+.nav-pills .nav-link{
+    border-radius: 1.25rem !important; 
+    background: #FAFAFA;
+
+}
+
+.nav-pills .nav-link:hover{
+    border-radius: 1.25rem !important; 
+    background: #FFFFFF;
+    /* Sombra */
+    box-shadow: 0px 4px 40px rgba(76, 78, 155, 0.08); 
+}
+
+.nav-pills .nav-link.active{
+    border-radius: 1.25rem !important; 
+    background: #FFFFFF;
+    /* Sombra */
+    box-shadow: 0px 4px 40px rgba(76, 78, 155, 0.08); 
+}
+
+.nav-pills .nav-link h5{
+    color: #141531;
+    margin: 0px;
+}
+
+.nav-pills .nav-link small{
+    color: #9A9A9A;
+}
+
+.btn-warning{
+    color: white;
+    border-radius: .5rem;
+    height: 48px;
+    background-color: #E9944F;
+    border-color: #E9944F;
+}
+
+.icon{
+    background-color: var(--orange);
+}
+/* TERMINA TESTIMONIAL */

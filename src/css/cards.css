@@ -1,0 +1,114 @@
+.card{
+    border:none;
+    border-radius: 1rem;
+}
+
+.card:hover{
+    border:none;
+    border-radius: 1rem;
+    background: #FFFFFF;
+    /* Sombra */
+    box-shadow: 0px 4px 4px rgba(76, 78, 155, 0.25);
+}
+
+.card .card-title{
+    /* Pronto Pago */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+
+.card .btn-link{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    /* Purple */
+    color: #7847F2;
+}
+
+.image-card.card-1{
+    background-image: url("../img/cards-1.png");
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    mask-image: url("../img/mask-box.svg");
+    mask-repeat: no-repeat;
+    mask-position: center;
+    background-color: #7847F2;
+    /*background: linear-gradient(209.31deg, #A25DEB 0%, #6F2DD9 55.06%);*/
+}
+
+.image-card.card-2{
+    background-image: url("../img/cards-2.png");
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    mask-image: url("../img/mask-box.svg");
+    mask-repeat: no-repeat;
+    mask-position: center;
+    background-color: #7847F2;
+    /*background: linear-gradient(209.31deg, #A25DEB 0%, #6F2DD9 55.06%);*/
+}
+
+.image-card.card-3{
+    background-image: url("../img/cards-3.png");
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    mask-image: url("../img/mask-box.svg");
+    mask-repeat: no-repeat;
+    mask-position: center;
+    background-color: #7847F2;
+    /*background: linear-gradient(209.31deg, #A25DEB 0%, #6F2DD9 55.06%);*/
+}
+
+.image-card.card-4{
+    background-image: url("../img/cards-4.png");
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    mask-image: url("../img/mask-box.svg");
+    mask-repeat: no-repeat;
+    mask-position: center;
+    background-color: #7847F2;
+    /*background: linear-gradient(209.31deg, #A25DEB 0%, #6F2DD9 55.06%);*/
+}
+
+
+@media all and (min-width:1024px) {}
+
+@media all and (min-width:768px) and (max-width:1023px) {}
+
+@media all and (min-width:426px) and (max-width:767px) {}
+
+@media all and (max-width:425px) {
+
+    .image-card.card-1{
+        background-size: 60%;
+    }
+    
+    .image-card.card-2{
+        background-size: 60%;
+    }
+    
+    .image-card.card-3{
+        background-size: 60%;
+    }
+    
+    .image-card.card-4{
+        background-size: 60%;
+
+    }
+    
+}

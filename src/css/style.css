@@ -1,0 +1,207 @@
+@import url('footer.css');
+@import url('testimonial.css');
+@import url('topBanner.css');
+@import url('cards.css');
+
+:root {
+    --purple: #7847F2;
+    --black: #141531;
+    --white: #FFFFFF;
+    --green: #99D5AA;
+    --orange: #EA8432;
+    --gradient: linear-gradient(93.31deg, #9469FE 0%, #FF79E0 48.96%, #FFBEA7 93.23%);
+    /* Fonts */
+    --primary-font: 'Poppins', sans-serif;
+    --secondary-font: 'Poppins', sans-serif;
+}
+
+/*      Text Colors     */
+.purple-txt{
+    color:var(--purple)
+}
+
+.black-txt{
+    color:var(--black)
+}
+.green-txt{
+    color:var(--green)
+}
+.orange-txt{
+    color:var(--orange)
+}
+
+/*      Background Colors     */
+.purple-bg{
+    background-color:var(--purple)
+}
+
+.black-bg{
+    background-color:var(--black)
+}
+.white-bg{
+    background-color:var(--white)
+}
+.green-bg{
+    background-color:var(--green)
+}
+.orange-bg{
+    background-color:var(--orange)
+}
+
+.gradient-bg{
+    background: var(--gradient);
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* CLASES PLANTILLA */
+
+
+/* TERMINA VARIABLES GENERALES */
+
+h1 {
+    font-family: var(--primary-font);
+    font-weight: 600 !important;
+    font-size: 3.625rem;
+    line-height: 121%;
+    letter-spacing: -0.02em;
+}
+
+h2 {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+
+h3 {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 600;
+    font-size:1.5rem;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+}
+
+
+
+
+h5 {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 154.5%; 
+    letter-spacing: -0.02em;
+}
+
+
+
+h6 {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height:200%;
+}
+
+
+
+.caption {
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 300 !important;
+    font-size: 0.75rem !important;
+    line-height: 267%;
+    /* identical to box height, or 267% */
+    text-align: center;
+    color: white
+}
+
+
+p{
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 229%;
+}
+
+.p-alt{
+    font-family: var(--secondary-font);
+
+    font-style: normal !important;
+    font-weight: 300 !important;
+    font-size: 13px !important;
+    line-height: 215% !important;
+    /* or 215% */
+}
+
+/* END BORDER */
+.rounded-4 {
+    border-radius: .5rem !important;
+}
+
+.rounded-5 {
+    border-radius: 1.25rem !important;
+}
+
+.rounded-6 {
+    border-radius: 3rem !important;
+}
+/* TERMINA BORDER */
+
+
+.shadow{
+    box-shadow: 0px 4px 4px rgba(76, 78, 155, 0.25);
+}
+
+.shadow-txt{
+    text-shadow: 0px 4px 4px rgba(76, 78, 155, 0.25);
+}
+
+
+::marker {
+    color: rgb(255, 0, 89);
+    font-size: 1.2em;
+  }
+
+  
+::selection {
+    color: var(--purple);
+    font-size: 1.2em;
+  }
+
+  /* RESPONSIVE */
+  
+/* RESPONSIVE*/
+
+@media all and (min-width:1024px) {}
+
+@media all and (min-width:768px) and (max-width:1023px) {}
+
+@media all and (min-width:426px) and (max-width:767px) {}
+
+@media all and (max-width:425px) {
+    h1 {
+        font-size: 2.25rem;
+        line-height: 121%;
+
+    }
+
+    h2{
+        font-size: 1.5rem;
+        line-height: 142%;
+    }
+
+    h6{
+        font-size: .813rem;
+        line-height: 225%;
+    }
+}

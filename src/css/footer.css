@@ -1,0 +1,32 @@
+/* FOOTER */
+.footer{
+    background: #141531;
+}
+
+.footer hr{
+    border-radius: 8px;
+    height: 2px;
+    background-blend-mode:luminosity;
+    background:var(--gradient);
+}
+
+.footer .nav-link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 32px;
+    margin:2px 0px;
+    padding: 0px;
+    /* identical to box height, or 267% */
+
+
+} 
+
+.footer p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 267%;
+}
+
+/* TERMINA FOOTER */
